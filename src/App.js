@@ -28,7 +28,7 @@ class App extends Component {
       //RETURNING JSX
       <React.Fragment>
         <h1 style={{ textAlign: "center" }}>Navbar</h1>
-        <div style={{ textAlign: "center", marginTop: "30%" }}>
+        <div style={{ textAlign: "center", marginTop: "10%" }}>
           <div>Counter : {this.state.count}</div>
           <button
             onClick={this.minusCount}
